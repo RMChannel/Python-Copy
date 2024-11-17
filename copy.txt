@@ -1,0 +1,7 @@
+import pyautogui
+with open('copy.txt', 'r') as file:
+    for linea in file:
+        linea = linea.strip()
+        print(linea)
+
+pyautogui.typewrite(stringa,interval=0.1)
